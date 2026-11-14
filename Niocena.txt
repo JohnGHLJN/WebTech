@@ -1,3 +1,1345 @@
+commit e75fcbe11bcb59af9bf84272d18bf10c07b321f9
+Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
+AuthorDate: 2026-11-10 04:44:47 +0000
+Commit:     JohnGHLJN <ljcn.cz9a@gmail.com>
+CommitDate: 2026-11-10 04:44:47 +0000
+
+    fix broken
+
+diff --git a/Niocena.txt b/Niocena.txt
+new file mode 100644
+index 0000000..25b501b
+--- /dev/null
++++ b/Niocena.txt
+@@ -0,0 +1,991 @@
++commit f4291bd87cd248dd513a583c5bf070aeb9deffd4
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-11-10 04:39:25 +0000
++Commit:     JohnGHLJN <ljcn.cz9a@gmail.com>
++CommitDate: 2026-11-10 04:39:25 +0000
++
++    final
++
++diff --git a/emmet-lab b/emmet-lab
++new file mode 160000
++index 0000000..58708ff
++--- /dev/null
+++++ b/emmet-lab
++@@ -0,0 +1 @@
+++Subproject commit 58708ffd4db3fef7ba8668b970ab9bb0ce080a97
++diff --git a/emmet-repo b/emmet-repo
++deleted file mode 160000
++index 23e631d..0000000
++--- a/emmet-repo
+++++ /dev/null
++@@ -1 +0,0 @@
++-Subproject commit 23e631d4f1199726a799478a3c17da4aeb4a3975
++
++commit 5ff4e982d7724ae409866109304b06d78f8f49f5
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-11-10 04:32:41 +0000
++Commit:     JohnGHLJN <ljcn.cz9a@gmail.com>
++CommitDate: 2026-11-10 04:32:41 +0000
++
++    reupload
++
++diff --git a/emmet-repo b/emmet-repo
++index 58708ff..23e631d 160000
++--- a/emmet-repo
+++++ b/emmet-repo
++@@ -1 +1 @@
++-Subproject commit 58708ffd4db3fef7ba8668b970ab9bb0ce080a97
+++Subproject commit 23e631d4f1199726a799478a3c17da4aeb4a3975
++
++commit ee07dcf5adf22c9b84597898085a5197750849f5
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-11-10 04:19:42 +0000
++Commit:     JohnGHLJN <ljcn.cz9a@gmail.com>
++CommitDate: 2026-11-10 04:19:42 +0000
++
++    all files reinstated
++
++diff --git a/emmet-laboratory/index.html b/emmet-laboratory-main/index.html
++similarity index 100%
++rename from emmet-laboratory/index.html
++rename to emmet-laboratory-main/index.html
++diff --git a/emmet-repo b/emmet-repo
++new file mode 160000
++index 0000000..58708ff
++--- /dev/null
+++++ b/emmet-repo
++@@ -0,0 +1 @@
+++Subproject commit 58708ffd4db3fef7ba8668b970ab9bb0ce080a97
++
++commit 9a9037394ed6d44e8074a6878f0ba0e6b78712ff
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-10-06 11:40:28 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-10-06 11:40:28 +0800
++
++    Add index.html file to emmet-laboratory
++
++diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
++new file mode 100644
++index 0000000..d00491f
++--- /dev/null
+++++ b/emmet-laboratory/index.html
++@@ -0,0 +1 @@
+++1
++
++commit 3704cda78a424cd848644d3474e142fd0105201c
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-10-03 12:41:38 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-10-03 12:41:38 +0800
++
++    Update registration form with class attribute
++
++diff --git a/HTML/registration.html b/HTML/registration.html
++index 0ea1a86..5bbd273 100644
++--- a/HTML/registration.html
+++++ b/HTML/registration.html
++@@ -11,7 +11,7 @@
++     <main>
++         <img src="images/images.webp" alt="Monkey">
++ 
++-        <form id="Registration-Forms" action="submit" method="POST">
+++        <form id="Registration-Forms" class="form-container" action="submit" method="POST">
++ 
++             <label for="name">Name<input type="text" name="" id="name"></label>
++             <label for="email">Email<input type="email" name=""></label>
++
++commit cc6d27decf4896f624a1a188f3c3b36183a9354f
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-10-03 12:39:23 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-10-03 12:39:23 +0800
++
++    Add registration form in registration.html
++
++diff --git a/HTML/registration.html b/HTML/registration.html
++new file mode 100644
++index 0000000..0ea1a86
++--- /dev/null
+++++ b/HTML/registration.html
++@@ -0,0 +1,38 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Registration Section</title>
+++</head>
+++<body>
+++    <h1>Registration Form</h1>
+++
+++    <main>
+++        <img src="images/images.webp" alt="Monkey">
+++
+++        <form id="Registration-Forms" action="submit" method="POST">
+++
+++            <label for="name">Name<input type="text" name="" id="name"></label>
+++            <label for="email">Email<input type="email" name=""></label>
+++            <label for="student id">Student ID<input type="number" name="ID" id="Student ID"></label>
+++            <label for="Password">Password<input type="password" name="pass" id="pass"></label>
+++            <label for="Birthday">Birthday<input type="date" name="bday" id="bday"></label>
+++            <label for="Gender">Gender<input type="boolean" name="gender" id="gender"></label>
+++
+++            <br>
+++            <button>click</button>
+++        </form>
+++
+++    </main>
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++</body>
+++</html>
++
++commit 6135e0224d8604f474133167cfa4bb98b0179611
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-10-03 12:29:04 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-10-03 12:29:04 +0800
++
++    Change H2O notation from superscript to subscript
++
++diff --git a/HTML/formatting.html b/HTML/formatting.html
++index 2d7de35..3c86b0e 100644
++--- a/HTML/formatting.html
+++++ b/HTML/formatting.html
++@@ -34,7 +34,7 @@
++     <br>
++     <h2>Challenge</h2>
++      <h3>Here I have made some equations display in the website, using the HTML elements</h3>
++-     <p>H<sup>2</sup>O</p>
+++     <p>H<sub>2</sub>O</p>
++      <p>E = mc<sup>2</sup></p>
++ 
++ 
++
++commit fb04fb713e138486af65d87357ccdc2b07ea38ff
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-10-03 12:00:23 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-10-03 12:00:23 +0800
++
++    Update schedule with new instructor names and times
++
++diff --git a/HTML/schedule.html b/HTML/schedule.html
++index ba9b049..0387d63 100644
++--- a/HTML/schedule.html
+++++ b/HTML/schedule.html
++@@ -43,25 +43,27 @@
++             <td>8:50-10:10AM</td>
++             <td>SCI 100</td>
++             <td>S230</td>
++-            <td>Christine</td>
+++            <td>Jell Villareal</td>
++         </tr>
++          <tr>
++             <td>Friday</td>
++-            <td></td>
++-            <td></td>
++-            <td></td>
++-            <td></td>
+++            <td>4:50-6:10PM</td>
+++            <td>CC5</td>
+++            <td>M305</td>
+++            <td>Jessie Martinez</td>
++         </tr>
++          <tr>
++             <td>Saturday</td>
++-            <td></td>
++-            <td></td>
++-            <td></td>
++-            <td></td>
+++            <td>11:00-12:50PM</td>
+++            <td>SOC SCI 100</td>
+++            <td>U805</td>
+++            <td>Ginalyn Villar</td>
++         </tr>
++        
++ 
++     </table>
++ 
+++
+++
++ </body>
++ </html>
++
++commit f742d3ab724255f734b6e630e10cfce1bdc2caa5
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-10-03 11:54:07 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-10-03 11:54:07 +0800
++
++    Add schedule entries for Monday to Thursday
++
++diff --git a/HTML/schedule.html b/HTML/schedule.html
++index f000a5b..ba9b049 100644
++--- a/HTML/schedule.html
+++++ b/HTML/schedule.html
++@@ -19,27 +19,47 @@
++         </tr>
++         <tr>
++             <td>Monday</td>
++-            <td></td>
++-            <td></td>
++-            <td></td>
++-            <td></td>
+++            <td>8:50-10:10AM</td>
+++            <td>CIT1</td>
+++            <td>U805</td>
+++            <td>Marie Grace Villanueva</td>
++         </tr>
++         <tr>
++             <td>Tuesday</td>
+++            <td>3:30-4:50PM</td>
+++            <td>PathFit 4</td>
+++            <td>Gym</td>
+++            <td>Leo Patrick Ninalga</td>
+++        </tr>
+++        <tr>
+++            <td>Wednesday</td>
+++            <td>7:30-8:50AM</td>
+++            <td>CIT5</td>
+++            <td>U805</td>
+++            <td>Luis Meing</td>
+++        </tr>
+++        <tr>
+++            <td>Thursday</td>
+++            <td>8:50-10:10AM</td>
+++            <td>SCI 100</td>
+++            <td>S230</td>
+++            <td>Christine</td>
+++        </tr>
+++         <tr>
+++            <td>Friday</td>
++             <td></td>
++             <td></td>
++             <td></td>
++             <td></td>
++         </tr>
++-        <tr>
++-            <td>Wednesday</td>
+++         <tr>
+++            <td>Saturday</td>
++             <td></td>
++             <td></td>
++             <td></td>
++             <td></td>
++         </tr>
++-
++-
+++       
++ 
++     </table>
++ 
++
++commit e19a035d91c30a5d5a31476fe138a329363e0943
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-10-01 11:28:07 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-10-01 11:28:07 +0800
++
++    Create Home.html with basic structure and content
++    
++    Add a basic HTML structure for the home page with navigation, an image, and a form.
++
++diff --git a/HTML/Home.html b/HTML/Home.html
++new file mode 100644
++index 0000000..7f2d2ff
++--- /dev/null
+++++ b/HTML/Home.html
++@@ -0,0 +1,40 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>HTML Exercises</title>
+++</head>
+++<body>
+++    <h1>Home Page</h1>
+++
+++    <header>
+++        <nav>
+++            <ul>
+++                <li><a href="index.html">Home</a></li>
+++                <li><a href="formatting.html">Formatting</a></li>
+++                <li><a href="images.html">Images</a></li>
+++                <li><a href="about.html">About</a></li>
+++            </ul>
+++        </nav>
+++    </header>
+++
+++    <main>
+++        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam assumenda itaque possimus distinctio saepe officia commodi atque maiores suscipit animi? Tempora autem voluptatem nisi magnam dignissimos nobis molestiae rerum corporis.
+++        </p>
+++    </main>
+++
+++    <main>
+++        <img src="images/images.webp" alt="Monkey">
+++
+++        <form action="submit">
+++
+++            <label for="name">Name<input type="text" name="" id="name"></label>
+++            <label for="email">Email<input type="email" name</label>
+++
+++        </form>
+++
+++    </main>
+++
+++</body>
+++</html>
++
++commit 8743f838206083e973d28539c1d2418d49d7d9ae
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-26 12:39:34 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-26 12:39:34 +0800
++
++    Add initial schedule.html file with table structure
++
++diff --git a/HTML/schedule.html b/HTML/schedule.html
++new file mode 100644
++index 0000000..f000a5b
++--- /dev/null
+++++ b/HTML/schedule.html
++@@ -0,0 +1,47 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>My Schedule</title>
+++</head>
+++
+++<body>
+++    <h1>This is my schedule</h1>
+++
+++    <table>
+++        <tr>
+++            <td>Day</td>
+++            <td>Time</td>
+++            <td>Subject</td>
+++            <td>Room</td>
+++            <td>Instructor</td>
+++        </tr>
+++        <tr>
+++            <td>Monday</td>
+++            <td></td>
+++            <td></td>
+++            <td></td>
+++            <td></td>
+++        </tr>
+++        <tr>
+++            <td>Tuesday</td>
+++            <td></td>
+++            <td></td>
+++            <td></td>
+++            <td></td>
+++        </tr>
+++        <tr>
+++            <td>Wednesday</td>
+++            <td></td>
+++            <td></td>
+++            <td></td>
+++            <td></td>
+++        </tr>
+++
+++
+++
+++    </table>
+++
+++</body>
+++</html>
++
++commit 30d41a1cbdc87abba0e0f88476fc9b3eb80367a9
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-26 12:31:48 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-26 12:31:48 +0800
++
++    Add files via upload
++
++diff --git a/HTML/images/clickme.png b/HTML/images/clickme.png
++new file mode 100644
++index 0000000..3dc4ed2
++Binary files /dev/null and b/HTML/images/clickme.png differ
++diff --git a/HTML/images/thepfp.jpg b/HTML/images/thepfp.jpg
++new file mode 100644
++index 0000000..4f7b15a
++Binary files /dev/null and b/HTML/images/thepfp.jpg differ
++
++commit fea6a7613b918d38ae6768cf04cd147a6f45eb8f
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-26 12:31:02 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-26 12:31:02 +0800
++
++    Add initial HTML structure with images
++
++diff --git a/HTML/images.html b/HTML/images.html
++new file mode 100644
++index 0000000..92e1dea
++--- /dev/null
+++++ b/HTML/images.html
++@@ -0,0 +1,31 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>images</title>
+++</head>
+++
+++<body>
+++
+++<img
+++    src="images/thepfp.jpg"
+++    alt="Profile photo"
+++    width="300"
+++    height="300">
+++<p>This is a picture.</p>
+++
+++<a href="index.html">
+++ <img
+++    src="images/clickme.png"
+++    alt="A button"
+++    width="300"
+++    height="300"
+++    >
+++</a>
+++<p>This is a picture.</p>
+++    
+++    
+++</body>
+++
+++</html>
++
++commit 0baedf51ff236760d5f512d3438a4e25f8621763
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-26 12:17:28 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-26 12:17:28 +0800
++
++    Add challenge section with navigation link
++
++diff --git a/HTML/links.html b/HTML/links.html
++index eeb6894..62c34f6 100644
++--- a/HTML/links.html
+++++ b/HTML/links.html
++@@ -18,5 +18,35 @@
++          <a href="https://github.com">GitHub</a><br>          
++          <a href="https://uc-bcf.edu.ph">University of The Cordilleras</a><br>
++     </nav>
+++
+++    <h2>Challenge</h2>
+++    <p>clicking specific section</p>
+++    <a href=""></a>
+++
+++    <br>
+++    <br>
+++   
+++    <p>
+++        <a href="#destinatio1">Click here to jump to challenge</a>
+++    </p>
+++
+++    <br><br><br><br>
+++     <br><br><br><br>
+++      <br><br><br><br>
+++       <br><br><br><br>
+++        <br><br><br><br> 
+++         <br><br><br><br>
+++          <br><br><br><br>
+++           <br><br><br><br>
+++            <br><br><br><br>
+++             <br><br><br><br>
+++              <br><br><br><br>
+++               <br><br><br><br>
+++                <br><br><br><br>
+++                 <br><br><br><br>
+++
+++    <h2 id="destinatio1">Challenge Char</h2>
+++    <p>Clicking specific section</p>
+++
++ </body>
++ </html>
++
++commit 0ce5eb9eb6ff9ed2260c4db83eb3376fc44750a0
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-26 12:05:48 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-26 12:05:48 +0800
++
++    Enhance links.html with more navigation options
++    
++    Added additional navigation links to external sites.
++
++diff --git a/HTML/links.html b/HTML/links.html
++index ea8e586..eeb6894 100644
++--- a/HTML/links.html
+++++ b/HTML/links.html
++@@ -7,11 +7,16 @@
++ </head>
++ <body>
++     <nav>
++-        <a href="index.html">Home</a><br>
++-        
+++        <a href="index.html">Home</a>
++         <a href="about.html">About</a>
++         <a href="contact.html">Contact</a>
++     </nav>
++-    
+++        <br>
+++    <nav>
+++         <a href="https://google.com">Google</a><br>
+++         <a href="https://youtube.com">YouTube</a><br>
+++         <a href="https://github.com">GitHub</a><br>          
+++         <a href="https://uc-bcf.edu.ph">University of The Cordilleras</a><br>
+++    </nav>
++ </body>
++ </html>
++
++commit d67e4724e807c45bebe6a63ba26891264ad022af
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-22 12:42:37 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-22 12:42:37 +0800
++
++    Add links.html with navigation links
++
++diff --git a/HTML/links.html b/HTML/links.html
++new file mode 100644
++index 0000000..ea8e586
++--- /dev/null
+++++ b/HTML/links.html
++@@ -0,0 +1,17 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Links</title>
+++</head>
+++<body>
+++    <nav>
+++        <a href="index.html">Home</a><br>
+++        
+++        <a href="about.html">About</a>
+++        <a href="contact.html">Contact</a>
+++    </nav>
+++    
+++</body>
+++</html>
++
++commit 55e535d42259476ff3de01cb235895644d34a9d3
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-22 12:24:02 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-22 12:24:02 +0800
++
++    Delete HTML/folder directory
++
++diff --git a/HTML/folder/as b/HTML/folder/as
++deleted file mode 100644
++index 8b13789..0000000
++--- a/HTML/folder/as
+++++ /dev/null
++@@ -1 +0,0 @@
++-
++
++commit 393d98c2f816970a0512e66ce2eebb642ffb10d4
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-22 12:22:16 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-22 12:22:16 +0800
++
++    Create as
++
++diff --git a/HTML/folder/as b/HTML/folder/as
++new file mode 100644
++index 0000000..8b13789
++--- /dev/null
+++++ b/HTML/folder/as
++@@ -0,0 +1 @@
+++
++
++commit b97404f49a280968f161da4adbaab6ea01c77c07
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-22 12:19:38 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-22 12:19:38 +0800
++
++    Enhance nested list structure in lists.html
++    
++    Added nested lists for Computer Science and Web Development topics.
++
++diff --git a/HTML/lists.html b/HTML/lists.html
++index 81af00d..77266e4 100644
++--- a/HTML/lists.html
+++++ b/HTML/lists.html
++@@ -32,31 +32,27 @@
++     <br>
++     <h3>C. Nested List</h3>
++         <p>Let's elaborate what topics relating to technology at where they belong in the computer branches.</p>
++-         <li>
++-            <li>Computer Science</li>
++-           <ul>
++-            <li></li>
++-            <li></li>
++-            <li></li>
++-            <li></li>
++-            <li></li>
++-           </ul>
++-         
++-         <br>
++-        
++-           <li>Web Development</li>
++-           <ol>
++-            <li></li>
++-            <li></li>
++-            <li></li>
++-            <li></li>
++-            <li></li>
++-           </ol>
++-
++-         </li>
++-
+++         <ul>
+++              <li>Computer Science
+++                    <ul>
+++                        <li>Programming</li>
+++                        <ul>              
+++                            <li>C#</li>
+++                            <li>Python</li>
+++                            <li>Java</li>
+++                        </ul>
+++                     </ul>
+++                    <ul>
+++                        <li>Web Development
+++                        <ul>
+++                            <li>HTML</li>
+++                            <li>CSS</li>
+++                            <li>JavaScript</li>
+++                        </ul>
+++                    </ul>
+++                </li>
+++        </ul> 
++ 
++ 
++ </body>
++-
++ </html>
++
++commit 601343d553f9d25ebb59c002bfeeff36f1fb484f
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-19 12:38:46 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-19 12:38:46 +0800
++
++    Enhance lists with nested structure and descriptions
++    
++    Added nested lists for Computer Science and Web Development topics.
++
++diff --git a/HTML/lists.html b/HTML/lists.html
++index 02fd8a2..81af00d 100644
++--- a/HTML/lists.html
+++++ b/HTML/lists.html
++@@ -31,6 +31,29 @@
++            </ol>
++     <br>
++     <h3>C. Nested List</h3>
+++        <p>Let's elaborate what topics relating to technology at where they belong in the computer branches.</p>
+++         <li>
+++            <li>Computer Science</li>
+++           <ul>
+++            <li></li>
+++            <li></li>
+++            <li></li>
+++            <li></li>
+++            <li></li>
+++           </ul>
+++         
+++         <br>
+++        
+++           <li>Web Development</li>
+++           <ol>
+++            <li></li>
+++            <li></li>
+++            <li></li>
+++            <li></li>
+++            <li></li>
+++           </ol>
+++
+++         </li>
++ 
++ 
++ 
++
++commit 17fb624c6dfdc7023d5d8155af694067a70cf49a
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-19 12:29:23 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-19 12:29:23 +0800
++
++    Create contact.html with basic HTML structure
++
++diff --git a/HTML/contact.html b/HTML/contact.html
++new file mode 100644
++index 0000000..18ecdcb
++--- /dev/null
+++++ b/HTML/contact.html
++@@ -0,0 +1 @@
+++<html></html>
++
++commit 09885ea97bd9aad5214946f68ea14028594d2310
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-19 12:29:04 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-19 12:29:04 +0800
++
++    Create about.html with basic HTML structure
++
++diff --git a/HTML/about.html b/HTML/about.html
++new file mode 100644
++index 0000000..18ecdcb
++--- /dev/null
+++++ b/HTML/about.html
++@@ -0,0 +1 @@
+++<html></html>
++
++commit 57ed22fab546f8d577c8248ef35b70fd556ca6bd
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-19 12:28:09 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-19 12:28:09 +0800
++
++    Create lists.html with example lists
++    
++    Added example unordered and ordered lists in HTML.
++
++diff --git a/HTML/lists.html b/HTML/lists.html
++new file mode 100644
++index 0000000..02fd8a2
++--- /dev/null
+++++ b/HTML/lists.html
++@@ -0,0 +1,39 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>My showcase at lists in HTML</title>
+++</head>
+++
+++<body>
+++    <h1>HTML Lists</h1>
+++    <h2>Here I made some example lists using HTML.</h2>
+++    <p>-------------</p>
+++    <h3>A. Unordered List</h3>
+++       <p>Favorite Food</p>
+++          <ul>
+++           <li>Clams</li>
+++           <li>Cheese Pizza</li>
+++           <li>Beef Stew</li>
+++           <li>Tinola</li>
+++           <li>Adobo Chicken</li>
+++         </ul>
+++    <br>
+++    <h3>B. Ordered List</h3>
+++        <p>Top 5 Programming Languanges</p>
+++           <ol>
+++            <li>JavaScript</li>
+++            <li>Python</li>
+++            <li>Java</li>
+++            <li>PHP</li>
+++            <li>C#</li>
+++           </ol>
+++    <br>
+++    <h3>C. Nested List</h3>
+++
+++
+++
+++</body>
+++
+++</html>
++
++commit 0f3d34e5ae6118692207514893e0bdd1c81e2ede
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-19 12:12:29 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-19 12:12:29 +0800
++
++    Create a.file
++
++diff --git a/HTML/pages/a.file b/HTML/pages/a.file
++new file mode 100644
++index 0000000..8b13789
++--- /dev/null
+++++ b/HTML/pages/a.file
++@@ -0,0 +1 @@
+++
++
++commit 62626e8f27abe51c6f3f1d48bcd190b5da9de055
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-19 12:12:00 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-19 12:12:00 +0800
++
++    Create a.file
++
++diff --git a/HTML/images/a.file b/HTML/images/a.file
++new file mode 100644
++index 0000000..8b13789
++--- /dev/null
+++++ b/HTML/images/a.file
++@@ -0,0 +1 @@
+++
++
++commit f4cbbe0491733f7e8d559d1131d855270ce197ab
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-19 12:11:32 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-19 12:11:32 +0800
++
++    Rewrite HTML structure and add content
++
++diff --git a/HTML/index.html b/HTML/index.html
++index 18d68bf..f22ebd3 100644
++--- a/HTML/index.html
+++++ b/HTML/index.html
++@@ -1,7 +1,22 @@
++-<html>
++-  
++-  
++-  <p>testing</p>
++-
++-
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>My HTML Website</title>
+++</head>
+++<body>
+++    <h1>============================<br>
+++        Welcome to my Page<br>
+++        ============================</h1><br>
+++    <h2>Lut</h2><br>
+++    <p>Bachelor Of Science in Infomation Technology</p><br>
+++    <h2>About Me</h2>
+++    <h2>-------------</h2>
+++    <p>I was born in Nov 10, 2006  at Baguio City.</p><br>
+++    <h2>My Hobbies</h2>
+++    <h2>---------------</h2>
+++    <p>I like to play games, learn about computers, play some sports.</p><br>
+++    <h1>============================</h1>
+++</body>
++ </html>
++
++commit 33c525cbbeaac46edbdc9118567b171ec4d99f97
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-19 12:08:54 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-19 12:08:54 +0800
++
++    Add HTML formatting elements example page
++
++diff --git a/HTML/formatting.html b/HTML/formatting.html
++new file mode 100644
++index 0000000..2d7de35
++--- /dev/null
+++++ b/HTML/formatting.html
++@@ -0,0 +1,42 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>HTML Text Formatting</title>
+++</head>
+++<body>
+++    <h1>HTML Text Formatting Elements:</h1> <br>
+++    <p>---------------</p>
+++    <h3>1. b</h3>
+++        <p>This makes the text <b>bold</b>.</p>
+++    <h3>2. strong</h3>
+++        <p>This makes the text strong and similar to <strong>bold</strong>.</p>
+++    <h3>3. i</h3>
+++        <p>This makes the text <i>italic</i>.</p>
+++    <h3>4. em</h3>
+++        <p>This makes the text emphasized and similar to <em>italic</em>.</p>
+++    <h3>5. u</h3>
+++        <p>This makes the text <u>underlined</u>.</p>
+++    <h3>6. mark</h3>
+++        <p>This makes the text <mark>highlighted</mark>.</p>
+++    <h3>7. small</h3>
+++        <p>This makes the text <small>small</small>.</p>
+++    <h3>8. del</h3>
+++        <p>This marks a text that has been <del>deleted.</del></p>
+++    <h3>9. ins</h3>
+++        <p>This makes the text define a range of text that has been <ins>inserted or added to the document.</ins></p>
+++    <h3>10. sub</h3>
+++        <p>This makes the text <sub>a subscript.</sub></p>
+++    <h3>11. sup</h3>
+++        <p>This makes the text <sup>a superscript.</sup></p>
+++    
+++    <br>
+++    <h2>Challenge</h2>
+++     <h3>Here I have made some equations display in the website, using the HTML elements</h3>
+++     <p>H<sup>2</sup>O</p>
+++     <p>E = mc<sup>2</sup></p>
+++
+++
+++</body>
+++</html>
++
++commit da47c87f2fa98fc76b03911472f5ffdc22e5a7f2
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-19 12:07:34 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-19 12:07:34 +0800
++
++    Add basic HTML structure with testing paragraph
++
++diff --git a/HTML/index.html b/HTML/index.html
++new file mode 100644
++index 0000000..18d68bf
++--- /dev/null
+++++ b/HTML/index.html
++@@ -0,0 +1,7 @@
+++<html>
+++  
+++  
+++  <p>testing</p>
+++
+++
+++</html>
++
++commit d4699b414bd79c3b561a6d6cdd511fa36e909058
++Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
++AuthorDate: 2026-09-15 12:09:09 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-15 12:09:09 +0800
++
++    Initialize repository for web tech
++    
++    Example
++
++diff --git a/Example b/Example
++new file mode 100644
++index 0000000..0e8382b
++--- /dev/null
+++++ b/Example
++@@ -0,0 +1 @@
+++Repository for web tech 
+diff --git a/emmet-lab b/emmet-lab
+deleted file mode 160000
+index 58708ff..0000000
+--- a/emmet-lab
++++ /dev/null
+@@ -1 +0,0 @@
+-Subproject commit 58708ffd4db3fef7ba8668b970ab9bb0ce080a97
+diff --git a/emmet-lab/01-basic.html b/emmet-lab/01-basic.html
+new file mode 100644
+index 0000000..156439f
+--- /dev/null
++++ b/emmet-lab/01-basic.html
+@@ -0,0 +1,28 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++
++<body>
++    
++    <h1></h1>
++    <h2></h2>
++    <h2></h2>
++    <p></p>
++    <p></p>
++    <p></p>
++    <div></div>
++    <header></header>
++    <nav></nav>
++    <main></main>
++    <footer></footer>
++
++
++
++
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-lab/02-classes-ids.html b/emmet-lab/02-classes-ids.html
+new file mode 100644
+index 0000000..a38faec
+--- /dev/null
++++ b/emmet-lab/02-classes-ids.html
+@@ -0,0 +1,19 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Classes and IDs</title>
++</head>
++
++<body>
++    
++    <header class="site-header"></header>
++        <nav id="main-nav"></nav>
++    <main class="content"></main>
++    <section id="about"></section>
++    <footer class="site-footer"></footer>
++
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-lab/03-navigation.html b/emmet-lab/03-navigation.html
+new file mode 100644
+index 0000000..ed6c9f9
+--- /dev/null
++++ b/emmet-lab/03-navigation.html
+@@ -0,0 +1,35 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>navigation</title>
++</head>
++
++<body>
++    
++
++    <nav>
++    <ul>
++        <li><a href="">Home</a></li>
++        <li><a href="">About</a></li>
++        <li><a href="">Services</a></li>
++        <li><a href="">Projects</a></li>
++        <li><a href="">Contact</a></li>
++    </ul>
++</nav>
++
++<nav>
++    <ul>
++        <li><a href="">Home</a></li>
++        <li><a href="">About</a></li>
++        <li><a href="">Portfolio</a></li>
++        <li><a href="">Services</a></li>
++        <li><a href="">Contact</a></li>
++    </ul>
++</nav>
++
++
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-lab/04-form.html b/emmet-lab/04-form.html
+new file mode 100644
+index 0000000..f21ac08
+--- /dev/null
++++ b/emmet-lab/04-form.html
+@@ -0,0 +1,34 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Register Form</title>
++</head>
++
++<body>
++    <h2>Fill in form:</h2>
++
++   
++    <input type="text" name="" id="">
++    <input type="email" name="" id="">
++    <input type="password" name="" id="">
++    <input type="checkbox" name="" id="">
++    <input type="radio" name="" id="">
++    <input type="submit" value="Submit">
++
++
++
++    <input type="text" placeholder="Student ID">
++    <input type="text" placeholder="Full Name">
++    <input type="email" placeholder="Email">
++    <input type="password" placeholder="Password">
++    <input type="radio" name="gender">
++    <input type="text" placeholder="Course">
++    <input type="checkbox">
++    <input type="text" placeholder="Address">
++    <input type="submit" value="Submit">
++
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-lab/05-semantic.html b/emmet-lab/05-semantic.html
+new file mode 100644
+index 0000000..a03dec0
+--- /dev/null
++++ b/emmet-lab/05-semantic.html
+@@ -0,0 +1,51 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Semantics example</title>
++</head>
++
++<body>
++    <header>
++        <h1>Semantic of a Website</h1>
++    </header>
++
++    <nav>
++        <ul>
++            <li><a href="google.com">Link 1</a></li>
++            <li><a href="index.html">Link 2</a></li>
++            <li><a href="">Link 3</a></li>
++            <li><a href="">Link 4</a></li>
++        </ul>
++    </nav>
++
++    <main>
++        <section>
++            <article>
++                <h2>Greek text</h2>
++                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum eaque quis atque earum. Et similique enim consequatur veritatis voluptate incidunt doloremque dolor, doloribus animi? Voluptate excepturi nihil repudiandae mollitia ducimus.</p>
++            </article>
++        </section>
++
++
++
++
++    </main>
++
++
++    <aside>
++        <p>This is an example of website layout</p>
++    </aside>
++
++
++
++    
++    
++    
++    <footer>
++        <p>Copyright 2026, reserved rights</p>
++    </footer>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-lab/images/profile.jpg b/emmet-lab/images/profile.jpg
+new file mode 100644
+index 0000000..a0caef1
+Binary files /dev/null and b/emmet-lab/images/profile.jpg differ
+diff --git a/emmet-lab/index.html b/emmet-lab/index.html
+new file mode 100644
+index 0000000..7d299fe
+--- /dev/null
++++ b/emmet-lab/index.html
+@@ -0,0 +1,32 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document for index</title>
++</head>
++
++<body>
++    <h1>Welcome to index page</h1>
++    <p>Click the links to go different parts of the website.</p>
++
++
++    <nav>
++        <ul>
++            <li><a href="01-basic.html">        basics                  </a></li>
++            <li><a href="02-classes-ids.html">  classes and ids         </a></li>
++            <li><a href="03-navigation.html">   navigation example      </a></li>
++            <li><a href="04-form.html">         a form example          </a></li>
++            <li><a href="05-semantic.html">     Semantics               </a></li>
++            <li><a href="portfolio.html">       Click here to go to my portfolio.</a></li>
++        </ul>
++    </nav>
++
++
++
++
++
++
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-lab/portfolio.html b/emmet-lab/portfolio.html
+new file mode 100644
+index 0000000..cf0b6ed
+--- /dev/null
++++ b/emmet-lab/portfolio.html
+@@ -0,0 +1,77 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Portfolio</title>
++</head>
++
++<body>
++    <header>
++    <h1>Hi, my name is</h1>
++    <h2>Luther John Niocena</h2>
++    <p>and I am a BSIT Student studying Web Technology.</p>
++    <nav>
++        <ul>
++            <li><a href="">Home</a></li>
++            <li><a href="">About</a></li>
++            <li><a href="">Skills</a></li>
++            <li><a href="">Projects</a></li>
++            <li><a href="">Contact</a></li>
++        </ul>
++    </nav>
++</header>
++
++<section id="about">
++    <h2>About Me</h2>
++    <p>I was born in November 10th, 2006, </p>
++    <img src="images/profile.jpg" alt="Profile Photo">
++</section>
++
++<section id="skills">
++    <h2>My coding skills</h2>
++    <ul>
++        <li>HTML</li>
++        <li>CSS</li>
++        <li>JavaScript</li>
++        <li>PHP</li>
++        <li>MySQL</li>
++        <li>Git</li>
++    </ul>
++</section>
++
++<section id="projects">
++    <h2>Projects</h2>
++    <p>Here are some examples of some projects I have been doing:</p>
++
++    <div class="card">
++        <h3>My HTML Website example</h3>
++        <p>Here I try developing websites using HTML. A link can be found here, which leads to the index.</p>
++        <a href="index.html">Index</a>
++    </div>
++    <div class="card">
++        <h3>Schoolwork</h3>
++        <p>I have also been working on my academics and activities in other subjects.</p>
++    </div>
++</section>
++
++<section id="contact">
++    <h2>Contact Me</h2>
++    <form action="">
++        <input type="text" placeholder="Name">
++        <input type="email" placeholder="Email">
++        <input type="text" placeholder="Subject">
++        <textarea placeholder="Message">Leave a message?</textarea>
++        <input type="submit" value="Submit button">
++    </form>
++</section>
++
++
++<footer>
++    <p>© 2026 - Luther J. Niocena</p>
++</footer>
++</body>
++
++
++
++</html>
+\ No newline at end of file
+
 commit f4291bd87cd248dd513a583c5bf070aeb9deffd4
 Author:     JohnGHLJN <ljcn.cz9a@gmail.com>
 AuthorDate: 2026-11-10 04:39:25 +0000
